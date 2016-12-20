@@ -1,4 +1,4 @@
-<<?php $secciones = $estudiantes->listarSecciones(); ?>
+<?php $secciones = $estudiantes->listarSecciones(); ?>
 <div class="box-principal">
   <h3 class="titulo">Editar estudiante <?php echo $datos['nombre']; ?><hr /></h3>
   <div class="panel panel-success">

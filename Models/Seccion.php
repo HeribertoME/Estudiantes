@@ -38,7 +38,7 @@
     }
 
     public function edit(){
-      $sql = "UPDATE FROM secciones SET nombre='{$this->nombre}' WHERE id='{$this->id}'";
+      $sql = "UPDATE secciones SET nombre='{$this->nombre}' WHERE id='{$this->id}'";
       $this->con->consultaSimple($sql);
     }
 
