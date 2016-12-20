@@ -22,7 +22,7 @@
     }
 
     public function listar(){
-      $sql = "SELECT * FROM secciones";
+      $sql = "SELECT * FROM secciones ORDER BY nombre ASC";
       $datos = $this->con->consultarRetorno($sql);
       return $datos;
     }
